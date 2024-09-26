@@ -1,24 +1,30 @@
-# cv-project
+# Проект: "Генерация Резюме"
+ 
+Учебный проект из курса Vue JS - Полный курс c нуля | Result University (Владилен Минин) 
+<a href="https://www.youtube.com/watch?v=1rRD9uMF92o">Видео курса</a>
 
-## Project setup
+
+## Описание проекта 
+
+Приложение позволяет формировать динамическое резюме. 
+В данном приложении производится практика по декомпозиции итогового приложения на различные компоненты и выстраивания между ними взаимодействия.
+
+Аватар добавляется посредством вставки URL изображения в необходимое поле.
+При нажатии кнопки "Загрузить комментарии" происходит fetch запрос на jsonplaceholder (fake api) и загружаются "комментарии"
+
+
+
+## Установка и запуск проекта
+
+```
+git clone https://github.com/ATaimasov/_edu-cv-generator.git
+```
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
